@@ -1,114 +1,192 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #007bff;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        h1 {
-            margin-top: 40px;
-            color: #333;
-        }
-        h2 {
-            margin-top: 20px;
-            color: #333;
-        }
-        p {
-            margin-bottom: 20px;
-            line-height: 1.6;
-        }
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            grid-gap: 20px;
-        }
-        .project {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .project h3 {
-            margin-top: 0;
-            color: #007bff;
-        }
-        .project p {
-            margin-bottom: 0;
-        }
-        .footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #007bff;
-            color: #fff;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Story by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Your career objective text goes here. You can write a brief description of your career goals, aspirations, and what you aim to achieve in your professional career." />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 
-<header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>I'm a passionate developer ready to tackle new challenges!</p>
-    <p><a href="#projects">Check out my projects below</a></p>
-</header>
+						<div class="content">
+							<h1>My Portfolio</h1>
+							<p>An MS Data Science student with 2.5 years of Backend Data Engineering and ML experience looking for Software Engineer, ML Engineer, Data Engineer or Data Scientist full time & internship roles.</p>
+							<ul class="actions stacked">
+								<li><a href="https://drive.google.com/uc?export=download&id=1x4uI9eLUhvWFnAYgdCgam9EVe-xwxi_X" class="button big wide smooth-scroll-middle" download>My Resume</a></li>
+							</ul>
+							<h2>My Projects</h2>
 
-<div class="container">
-    <h2>About Me</h2>
-    <p>Here you can write a brief introduction about yourself, your skills, interests, and what you're passionate about.</p>
+						</div>
+						<div class="image">
+							<img src="images/banner.jpg" alt="" />
+						</div>
+					</section>
 
-    <h2>Professional Projects</h2>
-    <div class="projects" id="projects">
-        <!-- Insert your professional project details here -->
-        <div class="project">
-            <h3>Project Name 1</h3>
-            <p>Description of the project goes here. You can also include technologies used and any achievements.</p>
-            <p><a href="#">View Project</a></p>
-        </div>
-        <div class="project">
-            <h3>Project Name 2</h3>
-            <p>Description of the project goes here. You can also include technologies used and any achievements.</p>
-            <p><a href="#">View Project</a></p>
-        </div>
-        <!-- Add more projects as needed -->
-    </div>
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>RL Experimentation Project</h2>
+							<p>Experimenting with gymnasium and visualizing performance of RL algorithms</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/vash02/GymnasiumRLExperiments" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/image-rl-frozenlake.gif" alt="" />
+						</div>
+					</section>
 
-    <h2>Skills</h2>
-    <p>Here you can list your technical skills. You can also use icons or tags for each skill.</p>
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Acquire Board Game</h2>
+							<p>Bakend APIs with acquire board game rules for handling independent player requests</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/vash02/acquire-game" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/image-acquire.jpg" alt="" />
+						</div>
+					</section>
 
-    <h2>Interests</h2>
-    <p>Here you can list your interests or hobbies. You can also use icons or tags for each interest.</p>
+				<!-- Four -->
+				<section class="spotlight style1 orient-right content-align-right image-position-center onscroll-image-fade-in">
+					<div class="content">
+						<h2>Black jack card game</h2>
+						<p>Black jack card game code</p>
+						<ul class="actions stacked">
+							<li><a href="https://github.com/vash02/black-jack" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<div class="image">
+						<img src="images/image-blackjack.jpg" alt="" />
+					</div>
+				</section>
 
-    <h2>Contact</h2>
-    <p>Feel free to reach out to me through the following channels:</p>
-    <ul>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">CV</a></li>
-    </ul>
-</div>
+				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+					<div class="content">
+						<h2>Hypothesis Testing Project</h2>
+						<p>Analysis of 2008 recession U.S. university vs non-university towns housing prices</p>
+						<ul class="actions stacked">
+							<li><a href="https://github.com/vash02/Hypothesis-testing-Project" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<div class="image">
+						<img src="images/image-hypothesis-testing.jpg" alt="" />
+					</div>
+				</section>
 
-<footer class="footer">
-    <p>Why Hire Me? I'm passionate, dedicated, and always eager to learn and grow!</p>
-</footer>
+				<!-- Five -->
+				<section class="tech-stacks" style="margin-top: 50px;">
+					<header class="align-center">
+						<h1>Tech I Know</h1>
+						<img src="images/icons8-tech-stack-96.png" alt="Image description">
+						<p>Frameworks, tools, programming languages I have extensive experience with.</p>
+					</header>
+					<div class="tech-stack-container">
+						<div class="tech-stack">
+							<h3>Frameworks/Tools</h3>
+							<div class="icon-container">
 
-</body>
+								<i class="devicon-apachespark-plain-wordmark colored"></i>
+
+								<i class="devicon-mysql-plain-wordmark colored"></i>
+
+								<i class="devicon-postgresql-plain-wordmark colored"></i>
+
+								<i class="devicon-microsoftsqlserver-plain-wordmark colored"></i>
+
+								<i class="devicon-github-original-wordmark colored"></i>
+
+								<i class="devicon-azure-plain-wordmark colored"></i>
+
+								<i class="devicon-cosmosdb-plain-wordmark colored"></i>
+
+								<i class="devicon-apacheairflow-plain-wordmark colored"></i>
+
+								<i class="devicon-spring-original-wordmark colored"></i>
+
+								<i class="devicon-kubernetes-plain-wordmark colored"></i>
+
+								<i class="devicon-docker-plain-wordmark colored"></i>
+
+								<i class="devicon-googlecloud-plain-wordmark colored"></i>
+
+
+
+
+							</div>
+							<p class="hidden">Distributed Computing (Apache Spark), Databricks, Git, MySQL, Microsoft SQL Server, NoSQL, Azure Data Factory, Airflow, Cloud Computing (Microsoft Azure), Postgres, Microservice Architecture (Springboot, Kubernetes, Docker), Keras, TensorFlow, PyTorch, Hive, CI/CD pipelines, Datalake</p>
+						</div>
+						<div class="tech-stack">
+							<h3>Programming Languages</h3>
+							<div class="icon-container">
+								<i class="devicon-python-plain-wordmark colored"></i>
+
+								<i class="devicon-java-plain-wordmark colored"></i>
+
+								<i class="devicon-bash-plain colored"></i>
+
+								<i class="devicon-linux-plain colored"></i>
+
+								<i class="devicon-scala-plain-wordmark colored"></i>
+							</div>
+						</div>
+						<div class="tech-stack">
+							<h3>ML/DL</h3>
+							<div class="icon-container">
+								<i class="devicon-scikitlearn-plain colored"></i>
+
+								<i class="devicon-numpy-plain-wordmark colored"></i>
+
+								<i class="devicon-pandas-plain-wordmark colored"></i>
+
+								<i class="devicon-matplotlib-plain-wordmark colored"></i>
+
+								<i class="devicon-tensorflow-original-wordmark colored"></i>
+
+								<i class="devicon-keras-plain-wordmark colored"></i>
+
+							</div>
+							<p class="hidden">Machine Learning (scikit-learn, numpy, pandas, scipy, matplotlib, seaborn), Deep Learning, Object-oriented Programming, Data Structures & Algorithms, Statistics</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://github.com/vash02" class="icon brands style2 fa-github-square"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/vaibhav-sharma-161354121/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:vaibh48@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
