@@ -24,6 +24,7 @@
 							</ul>
 							<h2>My Projects</h2>
 
+							<a href="javascript:void(0);" onclick="scrollToFooter()" style="position: fixed; top: 50px; left: 20px; background-color: white; color: grey; padding: 10px 20px; text-decoration: none; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 5px; font-weight: bold;">Connect with Me</a>
 						</div>
 						<div class="image">
 							<img src="images/banner.jpg" alt="" />
@@ -163,15 +164,19 @@
 				</section>
 
 				<!-- Footer -->
+				<div style="box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 					<footer class="wrapper style1 align-center">
 						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://github.com/vash02" class="icon brands style2 fa-github-square"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.linkedin.com/in/vaibhav-sharma-161354121/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="mailto:vaibh48@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
+							<div id="connect">
+								<ul class="icons">
+									<li><a href="https://github.com/vash02" class="icon brands style2 fa-github-square"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.linkedin.com/in/vaibhav-sharma-161354121/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									<li><a href="mailto:vaibh48@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</div>
 						</div>
 					</footer>
+				</div>
 
 			</div>
 
@@ -183,6 +188,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function scrollToFooter() {
+					document.getElementById('connect').scrollIntoView({ behavior: 'smooth' });
+				}
+			</script>
 
 	</body>
 </html>
